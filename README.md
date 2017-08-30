@@ -19,3 +19,4 @@ It is sufficient to expect input in the form of lists of atoms, such as `[i, fan
 - `answer` succeeds if the first argument is an input list of terms and the second is the corresponding reply by Dr. Roberts. For instance, the reply to the input `[i, know, i, am, insecure]` should be `[are, you, sure, you, know, that, you, are, insecure, qm]`.
 - `match` used for finding keywords in input lists
 - `transform` used for transforming input phrases into the corresponding output fragments
+- `printReply` takes an input list and writes the answer to the standard output
